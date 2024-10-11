@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding:  0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center{
+    width: 100%;
+    /* background-color: red;*/
+    padding: 20px 80px;
+}
+#center h1{
+    /*font-size: 58px;*/
+    font-size: 4.1vw;
+    font-weight: 500;
+    line-height: 4.4vw;
+}
+#center-in{
+    /*background-color: red;*/
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in p{
+    font-weight:600;
+    /*font-size: 22px;*/
+    font-size: 1.17vw;
+    line-height:1.8vw;
+}
+#right{
+    width: 20%;
+}
+.elem{
+/* background-color:yellow;*/
+/* margin: 5px;*/
+    padding: 20px 0;
+    border-top:2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity:0 ;
+}
+.elem a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8vw;
+}
+.elem:hover i{
+    opacity: 1;
+
+}
+.elem:hover{
+    text-decoration: underline;
+}
+#bottom{
+    height: 36%;
+    width: 100%;
+    background-color: rgb(155, 91, 91);
+    background-image: url(https://th.bing.com/th/id/R.892bb645c09c766efcc5bc4d0c93094a?rik=slmcvUaa5yToAw&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2015%2f12%2fNature-Lake-Bled.-Desktop-background-image.jpg&ehk=c2raFC95S12P3OL0%2fwdM60ro3oUxsSEajkuGEN%2fsjbo%3d&risl=1&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: 0 25%;
+}
+@media(max-width:600px){
+    #nav{
+        height: 60px;
+        gap: 23px;
+        padding:  0 20px;
+    }
+    #nav h4{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #nav i{
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        padding: 7px;
+        font-weight: 500;
+        border-radius: 50%;
+    }
+    #center{
+        width: 100%;
+        /* background-color: red;*/
+        padding: 15px 20px;
+    }
+    #center h1{
+        /*font-size: 58px;*/
+        font-size: 10vw;
+        font-weight: 500;
+        line-height: 12vw;
+    }
+    #center-in{
+        /*background-color: red;*/
+        width: 100%;
+        margin-top: 24px;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #center-in p{
+        font-weight:600;
+        font-size: 3vw;
+        line-height:4.2vw;
+    }
+    #right{
+        width: 100%;
+    }
+    .elem{
+    /* background-color:yellow;*/
+    /* margin: 5px;*/
+        padding: 10px 0;
+        border-top:1.5px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .elem i{
+        font-size: 14px;
+        font-weight: 500;
+        opacity:1 ;
+        color: #302c2c;
+    }
+    .elem a{
+        color: #302c2c;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    #bottom{
+        height: 33.5%;
+        width: 100%;
+        background-image: url(https://th.bing.com/th/id/R.892bb645c09c766efcc5bc4d0c93094a?rik=slmcvUaa5yToAw&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2015%2f12%2fNature-Lake-Bled.-Desktop-background-image.jpg&ehk=c2raFC95S12P3OL0%2fwdM60ro3oUxsSEajkuGEN%2fsjbo%3d&risl=1&pid=ImgRaw&r=0);
+        background-size: cover;
+        background-position: 0 25%;
+    }
+    
+}
